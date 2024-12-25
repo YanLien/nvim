@@ -21,3 +21,5 @@ vim.opt.breakindent = true
 vim.opt.showbreak = "↪"
 
 vim.opt.whichwrap:append("<,>,[,],h,l")
+
+vim.o.background = 'light'
