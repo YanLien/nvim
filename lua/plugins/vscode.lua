@@ -2,7 +2,7 @@ return {
 	{
 		"Mofiqul/vscode.nvim",
 		priority = 1000,
-		lazy = true,
+		lazy = false,
 		name = "vscode",
 		opts = {
 		},
@@ -11,7 +11,7 @@ return {
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "vscode",
+			colorscheme = "elflord",
 		}
 	}
 }
