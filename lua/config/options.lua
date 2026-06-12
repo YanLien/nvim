@@ -22,6 +22,6 @@ vim.opt.showbreak = "↪"
 
 vim.opt.whichwrap:append("<,>,[,],h,l")
 
-vim.o.background = "dark"
+vim.o.background = "light"
 
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"

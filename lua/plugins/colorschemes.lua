@@ -1,9 +1,10 @@
 return {
-  -- tokyonight 主题
+  -- vscode 主题
   {
-    "folke/tokyonight.nvim",
+    "Mofiqul/vscode.nvim",
+    priority = 1000,
     opts = {
-      style = "night",
+      style = "light",
     },
   },
 
@@ -11,7 +12,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "vscode",
     },
   },
 }
