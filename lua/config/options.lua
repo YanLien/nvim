@@ -3,6 +3,8 @@
 -- Add any additional options here
 --
 vim.opt.clipboard = "unnamedplus"
+vim.opt.number = true
+vim.opt.relativenumber = false
 vim.g.autoformat = false
 vim.b.autoformat = false
 

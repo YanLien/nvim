@@ -22,4 +22,3 @@ map("n", "<leader>yp", function()
   vim.fn.setreg("+", path)
   vim.notify("Copied relative path: " .. path)
 end, { desc = "Copy relative file path" })
-

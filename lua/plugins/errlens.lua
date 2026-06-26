@@ -81,6 +81,5 @@ return {
         desc = "下一个 trouble/quickfix 项目",
       },
     },
-  }
+  },
 }
-
