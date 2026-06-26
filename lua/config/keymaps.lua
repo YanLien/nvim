@@ -18,7 +18,12 @@ end, { desc = "Copy absolute file path" })
 
 -- 复制当前文件相对路径
 map("n", "<leader>yp", function()
-  local path = vim.fn.expand("%")
+  local file = vim.api.nvim_buf_get_name(0)
+  if file == "" then
+    vim.notify("No file path for current buffer", vim.log.levels.WARN)
+    return
+  end
+  local path = vim.fn.fnamemodify(file, ":.")
   vim.fn.setreg("+", path)
   vim.notify("Copied relative path: " .. path)
 end, { desc = "Copy relative file path" })
